@@ -22,6 +22,7 @@ box-sizing: border-box;
     color: #FFF;
     display: flex;
     flex-direction: column;
+   align-items: center;
     position: relative;
     
     overflow-y: auto;
@@ -32,7 +33,7 @@ box-sizing: border-box;
     display: none;
   }
 .main{
-    flex:4;
+    flex:6;
     max-height: 100vh; 
     width: 100vw;
     color: #FFF;
@@ -45,19 +46,29 @@ body::-webkit-scrollbar {
 #player{
     background: #181818;
     position: fixed;
-    height: 8vh;
+    height: 10vh;
     width: 100vw;
     bottom: 0px;
+    display: flex;
+    
 }
 
 #logo{
-    width: 100%;
+    width: 90%;
     
     
 }
+
+.logo1{
+
+    width:75%;
+}
     #spotify_logo{
+        margin-left: 0px;
+        width: 18vw;
         display: flex;
-        
+        margin-bottom: 10px;
+        display: flex;
     }
 .list{
 
@@ -65,17 +76,27 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 22px;
 }
 ul>li{
     display: flex;
     align-items: baseline;
+    font-size: medium;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-left: 5px;
    
 }
+.list1{
+   
+    margin-right: 13px;
+}
 
+ul{
+    align-items:baseline;
+
+}
 ul>li>img{
     margin-bottom: 10px;
     margin-right: 5px;
@@ -87,24 +108,33 @@ ul>li>img{
 a{
     color: #FFF;
     text-decoration: none;
-    font-size: 75%;
+    font-size: 100%;
     font-weight: 700;
     align-self: center;
     margin-left: 10px;
-  
+    margin-right: 10px;
     
 }
+a:hover{
+    color: #004638;
+    font-size: 101%;
+   
+}
+
 #publish{
     background-color: #004638;
     border-radius: 5px;
+    width: 24px;
 }
 #plus_small{
     background-color: #FFF;
+    width: 24px;
 }
 #install{
     display: flex;
- margin-bottom: 20px;
-  padding-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-right: 25px;
 }
 .card1{
     border-radius: 4px;
@@ -138,7 +168,7 @@ flex-wrap: wrap;
     
     font-weight: 700;
     margin: 20px;
-   padding: 20px;
+    padding: 20px;
     align-items: center;
 }
 p{
@@ -153,3 +183,84 @@ letter-spacing: 0.15px;
     
 background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
 }  
+#heart1{
+    width: 24px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+    }  
+.rectangle20{
+width: 63.587px;
+height: 70px;
+flex-shrink: 0;
+}
+.text1{
+    display: flex;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+   
+}
+.text2{
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
+.texthead{
+    margin-left: 10px;
+  
+   padding: 2px;
+   
+}
+.player_buttons{
+    display: flex;
+ height: 30px;
+    justify-content:center;
+}
+.check{
+   align-items: center;
+    border: 2px solid white;
+    width: 90vw;
+}
+.range_playerbutton{
+    border: 2px solid red;
+    display: flex;
+   
+
+}
+.rangeButton{
+    display: flex;
+}
+.rangeButton>input{
+    margin-left: 44px;
+   width: 90%;
+}
+.range {
+    /* width: 400px; */
+    height: 5px;
+    -webkit-appearance: none;
+    background: #111;
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  }
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #f7f8f7;
+    cursor: pointer;
+    /* border: 4px solid #333;  */
+     box-shadow: -410px 0 0 400px #f9fcf9;
+    /* box-shadow:500px 0 0 500px #f9fcf9; */
+  }
+@media screen and (max-width:910px) {
+
+    .logo1{
+    display: none;
+   }
+}
