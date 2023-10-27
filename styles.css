@@ -191,7 +191,7 @@ background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, 
     }  
 .rectangle20{
 width: 63.587px;
-height: 70px;
+height: 100vh;
 flex-shrink: 0;
 }
 .text1{
@@ -297,4 +297,17 @@ flex-shrink: 0;
     .logo1{
     display: none;
    }
+   /* .texthead{
+    width: 10%;
+   } */
+
+   .Rectangle20{
+    width: 30px;
+    height: 50px;
+   }
+   #spotify_logo{
+
+    width: 20vw;
+    
+}
 }
