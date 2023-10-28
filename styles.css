@@ -32,6 +32,37 @@ box-sizing: border-box;
 .sidebar::-webkit-scrollbar {
     display: none;
   }
+
+  .navbar{
+    display: flex;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+  .nav1{
+    flex: 1;
+  }
+  .nav2{
+    flex: 1;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+  }
+  .nav2>button{
+    color: white;
+    border-radius: 33px;
+    background: #0A0A0A;
+    width: 107px;
+    height: 41px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+}
+.nav2>img{
+    margin-right: 10px;
+}
+.nav1>img{
+    background:#131313;;
+}
 .main{
     flex:6;
     max-height: 100vh; 
@@ -80,7 +111,7 @@ body::-webkit-scrollbar {
 }
 ul>li{
     display: flex;
-    align-items: baseline;
+    align-items:baseline;
     font-size: medium;
     margin-top: 5px;
     margin-bottom: 5px;

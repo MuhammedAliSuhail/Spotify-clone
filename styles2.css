@@ -1,0 +1,161 @@
+.main{
+    background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+    /* background: rgb(28, 34, 33); */
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 32px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#spotify_logo{
+    width: 13vw;
+}
+.sidebar{
+   width:18vw;
+   align-items: start; 
+}
+
+.list{
+    padding-right: 18px;
+    align-items:start;
+}
+.top{
+    /* background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%); */
+    display: flex;
+   align-items: center;
+}
+.pop{
+color: #FFF;
+
+font-size: 90px;
+font-weight: 900;
+}
+.spoti{
+color: #FFF;
+font-size: 15px;
+font-weight: 700;
+line-height: 146.9%; /* 22.035px *
+}
+.thamp_img{
+    width: 55px;
+    height: 30px;
+    /* margin: auto; */
+ margin-left: 15px;
+
+}
+.pop>p{
+    margin-left: 6px;
+}
+.sidbar_albam{
+    width:18vw;
+    
+}
+.sidbar_albam>img{
+    width: 100%;
+    padding-right: 10px;
+}
+.play_butt{
+    height: 55px;
+    margin-top: 10px;
+}
+    .play_buttons{
+        display: flex;
+      
+        align-items: center; 
+    }
+    .music_icon{
+      
+      
+       background:rgb(0, 0, 0,0.60);
+        height: 60%;
+        overflow-y: auto;
+    }
+    .music_icon::-webkit-scrollbar {
+        display: none;
+      }
+.music_head{
+    display: flex;
+    margin-top: 6px;
+  height: 8vh;
+    background:rgb(0, 0, 0,0.15);
+    /* border:2px solid white; */
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 7px;
+}
+    .head1{
+        margin-left: 7px;
+        margin-top: 20px;
+        flex: 1;
+        align-items: flex-start;
+       
+    
+    }
+   .hash{
+    margin-left: 10px;
+   }
+    .head2{
+        flex: 1;
+        display: flex;
+        margin-right: 50px;
+    }
+   .head2>h5{
+
+   }
+    .head3{
+        flex: 1.8;
+        align-items: flex-start;
+        display: flex;
+        margin-right: 20px;
+        /* margin-right: 65px; */
+    }
+   .head1>span,h5{
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    margin: auto;
+   }
+   .music_img{
+    height: 8vh;
+   }
+  
+   .mus_head1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+}
+.mus_head1>span{
+    margin-right: 18px;
+}
+.mus_head1>img{
+    margin-right: 18px;
+}
+
+   .mus_head2{
+    flex: 1;
+    align-items: flex-start;
+    display: flex;
+}
+   .mus_head3{
+    flex: 1.5;
+    align-items: flex-start;
+    display: flex;
+    margin-right: 20px;
+   }
+   .mus_head3>img{
+    margin-top: 15px;
+    margin-right: 10px;
+   }
+   #time{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+   }
